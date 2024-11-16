@@ -1,0 +1,49 @@
+body {
+    background-image: url("Counter.jpeg");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 2px solid #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkblue;
+    border: 2px solid black;
+}
+
+#save-btn {
+    background: darkmagenta;
+     border: 2px solid black;
+}
+
+.container {
+  max-width: 80%; /* Set your desired maximum width */
+  padding: 0 20px; /* Add some padding on the sides */
+  background: white;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 10px;
+}
